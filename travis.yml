@@ -1,1 +1,6 @@
-
+language: c 
+sudo: false # only for faster builds 
+clang 
+- gcc 6. script:
+- gcc -o test test.c // we can use gcc instead of clang too 
+- ./test
